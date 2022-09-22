@@ -1,34 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" src="./css/style.css" type="text/css">
+    <title>Registro clase </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" src="./css/style.css" type="text/css">*/-->
 </head>
+
 <body>
     <div class="div1">
-        <h1>FORMULARIO INICIAL</h1>
-    <div>
-    <form>
-        <Label name="form"  >Nombre:</Label> <br>
-        <input type="text"><br>
         
-        <Label name="form"  >Correo:</Label> <br>
-        <input type="mail"> <br>
-        
-        <Label name="form"  >Contraseña:</Label> <br>
-        <input type="password">
-        <br>
-        <input type="submit" value="login"><br>
-        <input type="checkbox" name="lg">
-        <label for="lenguaje">c++</label>
-        <input type="checkbox" name="lg">
-        <label for="lenguaje">java</label>
-    </form>
-    </div>
+
+        <form>
+            <div class="form">
+                <h1> Registro</h1>    
+            <div class="grupo">
+                <Label name="form">Nombre:</Label> <br>
+                <input type="text"><br>
+            </div>
+            <div class="grupo">
+                <Label name="form">Correo:</Label> <br>
+                <input type="mail"> <br>
+            </div>
+            <div class="grupo">
+                <Label name="form">Contraseña:</Label> <br>
+                <input type="password">
+                <br>
+            </div>
+            <div class="grupo">
+                <p>¿Qué lenguajes conoces?</p>
+                <input type="checkbox" name="lg">
+                <label for="lenguaje">c++</label>
+                <input type="checkbox" name="lg">
+                <label for="lenguaje">java</label>
+                <input type="checkbox" name="lg">
+                <label for="lenguaje">python</label>
+                <br>
+                <button type="button" onclick="alert('registrado')">registrarse</button> <br>
+            </div>
+        </div>
+        </form>
+
 
     </div>
 </body>
+
 </html>

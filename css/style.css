@@ -1,0 +1,69 @@
+:root {
+    --colorTextos: #ff93fa;
+}
+
+*,
+::before,
+::after {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #654ea3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'roboto';
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+h1{text-align: center;
+    font-weight: 700;}
+form{
+    
+    
+    background-color: white;
+    padding: 25px 0;
+    
+    box-shadow: 0 0 6px 0 rgba(255,255,255, 0.9);
+    border-radius: 10px;
+   
+}
+.form{
+    width: 100%;
+    margin: auto;
+
+}
+form .grupo{
+    position: relative;
+    margin: 1rem;
+    
+}
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 8px 8px 8xp 4px ;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+input :focus{
+    outline: none;
+    color: #9901ff93;
+}
+label{
+    color: var(--colorTextos);
+   
+    font-size: 16px;
+    
+   
+}
