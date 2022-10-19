@@ -39,3 +39,27 @@ document.getElementById ("btn99").addEventListener ("click", ()=>{
     console.log("Click detected" );})
 })();*/
 
+
+/*//jsON => Javascript Object NOtation
+//Dictionary Hashes
+var course = {
+title: "Course JS Advanced",
+section: 4,
+subsection: 6,
+teacher:"Javier Prada",
+/*intro: function (){
+    return "Welcome to "+this.title+"with"+this.section+"sections";
+} 
+
+}
+console.log (course ["teacher"]);
+console.log (course.title);
+console.log (course.intro());
+
+ intro: function(){
+    console.log("Welcome to "+this.title+"with"+this.section+"sections");
+    this.function2() }
+    function2: function(){
+        console.log("into to seconde funtions");
+    }*/
+    
